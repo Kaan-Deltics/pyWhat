@@ -2808,7 +2808,7 @@
    },
    {
       "Name": "CVE ID",
-      "Regex": "^(CVE-\\d{4}-\\d{4,})$",
+      "Regex": "^(CVE-[0-9]{4}-[0-9]{4,})$",
       "plural_name": false,
       "Description": null,
       "Rarity": 0,
