@@ -2806,9 +2806,9 @@
          "Invalid": []
       }
    },
-      {
+   {
       "Name": "CVE ID",
-      "Regex": "^(CVE-\d{4}-\d{4,})$",
+      "Regex": "^(CVE-\\d{4}-\\d{4,})$",
       "plural_name": false,
       "Description": null,
       "Rarity": 0,
