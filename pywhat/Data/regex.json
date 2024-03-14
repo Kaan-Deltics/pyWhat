@@ -2805,5 +2805,22 @@
          ],
          "Invalid": []
       }
+   },
+      {
+      "Name": "CVE ID",
+      "Regex": "^(CVE-\d{4}-\d{4,})$",
+      "plural_name": false,
+      "Description": null,
+      "Rarity": 0,
+      "URL": "https://nvd.nist.gov/vuln/detail/",
+      "Tags": [
+         "Identifiers"
+      ],
+      "Examples": {
+         "Valid": [
+            "CVE-2023-27997"
+         ],
+         "Invalid": []
+      }
    }
 ]
