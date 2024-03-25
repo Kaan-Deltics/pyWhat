@@ -17,6 +17,74 @@
       }
    },
    {
+      "Name": "SHA256 Hash",
+      "Regex": "^(\b[a-fA-F0-9]{64}\b)$",
+      "plural_name": false,
+      "Description": null,
+      "Rarity": 1,
+      "URL": null,
+      "Tags": [
+         "Identifiers"
+      ],
+      "Examples": {
+         "Valid": [
+            "8fa28795e4cd95e6c78c4a1308ea80674102669f9980b2006599d82eff6237b3"
+         ],
+         "Invalid": []
+      }
+   },
+   {
+      "Name": "SHA512 Hash",
+      "Regex": "^(\b[a-fA-F0-9]{128}\b)$",
+      "plural_name": false,
+      "Description": null,
+      "Rarity": 1,
+      "URL": null,
+      "Tags": [
+         "Identifiers"
+      ],
+      "Examples": {
+         "Valid": [
+            "374d794a95cdcfd8b35993185fef9ba368f160d8daf432d08ba9f1ed1e5abe6cc69291e0fa2fe0006a52570ef18c19def4e617c33ce52ef0a6e5fbe318cb0387"
+         ],
+         "Invalid": []
+      }
+   },
+   {
+      "Name": "MD5 Hash",
+      "Regex": "^(\b[a-fA-F0-9]{32}\b)$",
+      "plural_name": false,
+      "Description": null,
+      "Rarity": 1,
+      "URL": null,
+      "Tags": [
+         "Identifiers"
+      ],
+      "Examples": {
+         "Valid": [
+            "1a79a4d60de6718e8e5b326e338ae533"
+         ],
+         "Invalid": []
+      }
+   },
+   {
+      "Name": "SHA1 Hash",
+      "Regex": "^(\b[a-fA-F0-9]{40}\b)$",
+      "plural_name": false,
+      "Description": null,
+      "Rarity": 1,
+      "URL": null,
+      "Tags": [
+         "Identifiers"
+      ],
+      "Examples": {
+         "Valid": [
+            "b89eaac7e61417341b710b727768294d0e6a277b"
+         ],
+         "Invalid": []
+      }
+   },
+   {
       "Name": "PGP Public Key",
       "Regex": "^(?:-----BEGIN PGP PUBLIC KEY BLOCK-----\\n?(?:(?:(?:Version|Comment|MessageID|Hash|Charset):.*)\\n?)*[a-zA-Z0-9\\/\\.\\n\\:\\+\\=]+-----END PGP PUBLIC KEY BLOCK-----)$",
       "plural_name": false,
