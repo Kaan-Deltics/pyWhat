@@ -18,7 +18,7 @@
    },
    {
       "Name": "SHA256 Hash",
-      "Regex": "^([a-fA-F0-9]{64})$",
+      "Regex": "^(\\b[a-fA-F0-9]{64}\\b)$",
       "plural_name": false,
       "Description": null,
       "Rarity": 1,
@@ -35,7 +35,7 @@
    },
    {
       "Name": "SHA512 Hash",
-      "Regex": "^(\b[a-fA-F0-9]{128}\b)$",
+      "Regex": "^(\\b[a-fA-F0-9]{128}\\b)$",
       "plural_name": false,
       "Description": null,
       "Rarity": 1,
@@ -52,7 +52,7 @@
    },
    {
       "Name": "MD5 Hash",
-      "Regex": "^(\b[a-fA-F0-9]{32}\b)$",
+      "Regex": "^(\\b[a-fA-F0-9]{32}\\b)$",
       "plural_name": false,
       "Description": null,
       "Rarity": 1,
@@ -69,7 +69,7 @@
    },
    {
       "Name": "SHA1 Hash",
-      "Regex": "^(\b[a-fA-F0-9]{40}\b)$",
+      "Regex": "^(\\b[a-fA-F0-9]{40}\\b)$",
       "plural_name": false,
       "Description": null,
       "Rarity": 1,
