@@ -18,7 +18,7 @@
    },
    {
       "Name": "SHA256 Hash",
-      "Regex": "^(\b[a-fA-F0-9]{64}\b)$",
+      "Regex": "^([a-fA-F0-9]{64})$",
       "plural_name": false,
       "Description": null,
       "Rarity": 1,
